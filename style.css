@@ -12,13 +12,15 @@
         margin: 0;
         padding: 0;
     }
-    li {
+}
+
+.navbar li{
         display: inline;
         margin: 0 1em;
-    }
-    a {
+}
+
+.navbar a{
         color: #fff;
-    }
 }
 
 .main-content {
