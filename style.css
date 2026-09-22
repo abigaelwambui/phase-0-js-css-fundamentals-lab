@@ -14,12 +14,12 @@
     padding: 0;
 }
 
-.navbar ul li{
+.navbar ul li {
         display: inline;
         margin: 0 1em;
 }
 
-.navbar ul li a{
+.navbar ul li a {
         color: #fff;
 }
 
@@ -29,16 +29,16 @@
         padding: 2em 1em;
     text-align: center;
     }
-    #home {
-        h1 {
+    
+    #home h1 {
         font-size: 2.5em;
     }
     margin-bottom: 0.5em;
-    p {
+    #home p {
         font-size: 1.2em;
         color: #666;
     }
-    }
+    
     .portfolio-container {
         display: flex;
         flex-wrap: wrap;
@@ -54,23 +54,24 @@
      width: 30%;
      box-sizing: border-box;
      transition: transform 0.3s;
+    }
 
-     h3 {
+    .portfolio-item h3 {
         font-weight: bold;
         margin-bottom: 0.5em;
      }
-     p {
+    .portfolio-item p {
         margin-bottom: 0.5em;
         color: #666;
      }
-     img {
+    .portfolio-item img {
        width: 100%;
        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
      }
-    }
+    
 
     .portfolio-item:hover {
-        transform: scale(1.05)
+        transform: scale(1.05);
     }
 }
 
