@@ -1,4 +1,4 @@
-.navbar {
+body .navbar {
     background-color: #333;
     font-size: 1.2em;
     padding: 1em;
@@ -8,18 +8,18 @@
     top: 0;
     z-index: 1000;
 }
-.navbar ul {
+body .navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li{
+body .navbar ul li{
         display: inline;
         margin: 0 1em;
 }
 
-.navbar ul li a{
+body .navbar ul li a{
         color: #fff;
 }
 
